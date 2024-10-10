@@ -13,7 +13,7 @@ Nesse caso, os números são impressos no console em ordem (1, 2, 3), pois cada 
 2. Chamadas Assíncronas com Fetch:
 
 A função fetch permite realizar requisições de rede de forma assíncrona, retornando uma Promise que pode ser resolvida ou rejeitada.
-javascript
+
 async function getDogImage() {
     try {
         const response = await fetch('https://dog.ceo/api/breeds/image/random');
@@ -48,8 +48,6 @@ Promise.all(endpoints.map(url => fetch(url).then(res => res.json())))
 •	JavaScript: Utiliza fetch para fazer chamadas assíncronas e manipular a resposta.
 
 5. Exemplo do Código:
-
-javascript
 
 / Função para buscar imagem aleatória de cachorro
 async function getDogImage() {
