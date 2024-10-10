@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #d8d4f0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#fetchDogBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #7a66e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#fetchDogBtn:hover {
+    background-color: #000000;
+}
+
+#dogImage {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
